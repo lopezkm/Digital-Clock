@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
+import Clock from './component/clock/clock.jsx';
 import './App.css';
 
 function App() {
+    
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <h2>DIGITAL CLOCK</h2>
+      <div className="clock">
+        <Clock/>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App; 

@@ -1,0 +1,16 @@
+.time {
+    height: 200px;
+    width: 800px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    font-weight: bold;
+    font-family:cursive;
+    color:rgb(187, 248, 19);
+    font-size: 150px;
+    border: white 10px solid;
+    border-radius: 50px;
+}
+p {
+    margin: 0;
+}
